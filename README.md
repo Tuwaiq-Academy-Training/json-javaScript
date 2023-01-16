@@ -45,3 +45,34 @@ JSON هو معيار مفتوح لتبادل البيانات على الويب.
 |  Number  |يمثل الحروف الرقمية.|	121, 899 |
 |  Boolean   | يمكن أن يكون إما صحيحًا أو خاطئًا| true |
 |  Null   |  قيمة فارغة|  | 
+
+
+## كائنات JSON
+في JSON، تشير الكائنات إلى القواميس، والتي تكون مرفقة بين قوسين مجعد، أي، {}. تتم كتابة هذه الكائنات في أزواج المفاتيح/القيمة، حيث يجب أن يكون المفتاح عبارة عن سلسلة ويجب أن تكون القيم نوعًا صحيحًا من بيانات JSON مثل السلسلة أو العدد أو objectأو Boolean أو null. هنا يتم فصل المفتاح والقيم بواسطة colon، والفاصلة تفصل كل زوج مفتاح/قيمة.
+
+
+           {"name" : "Jack", "employeeid" : 001, "present" : false}  
+
+
+## ال JSON Arrays
+وفي نظام JSON، يمكن فهم المصفوفات على أنها قائمة بالأشياء، وهي مرفقة أساسا بين معقوفتين []. يمكن أن تكون قيمة المصفوفة عبارة عنstring, number, object, array, boolean or null
+
+        [{  
+       "PizzaName" : "Country Feast",  
+       "Base" : "Cheese burst",  
+       "Toppings" : ["Jalepenos", "Black Olives", "Extra cheese", "Sausages", "Cherry tomatoes"],  
+       "Spicy" : yes,  
+       "Veg" : yes  
+       },  
+  
+       {  
+       "PizzaName" : "Veggie Paradise",   
+       "Base" : "Thin crust",  
+       "Toppings" : ["Jalepenos", "Black Olives", "Grilled Mushrooms", "Onions", "Cherry tomatoes"],  
+       "Spicy"        : yes,  
+       "Veg" : yes 
+       }  
+       ]  
+       
+       في المثال أعلاه، الكائن «بيتزا» هو مصفوفة. يحتوي على خمسة أشياء، أي PizzaName و Base و Toppings و Spicy و Veg.
+       
